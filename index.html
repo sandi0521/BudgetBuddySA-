@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Budget Tracker | Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💰 Student Budget Tracker</h1>
+    <p>Smart Budgeting for Every Student</p>
+</header>
+
+<div class="container">
+
+    <h2>Student Login</h2>
+
+    <label>Student Number</label>
+    <input
+    type="text"
+    id="loginStudentNumber"
+    placeholder="Enter Student Number">
+        
+
+  <label>Password</label>
+
+<div class="password-box">
+
+    <input
+        type="password"
+        id="loginPassword"
+        placeholder="Enter Password">
+
+    <button
+        type="button"
+        onclick="togglePassword('loginPassword', this)">
+        👁️
+    </button>
+
+</div>
+
+    <button onclick="login()">
+        Login
+    </button>
+
+    <br><br>
+
+    <p style="text-align:center;">
+        Don't have an account?
+        <a href="register.html">
+            Create Account
+        </a>
+    </p>
+
+</div>
+
+<footer>
+
+    © 2026 Student Budget Tracker
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
